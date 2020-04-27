@@ -1,0 +1,377 @@
+* {
+  box-sizing: border-box;
+}
+
+#image{
+  height: 200px;
+  width: 180px;
+  display: block;
+  margin: auto;
+}
+
+.card .card-image {
+  position: relative;
+  padding-top: 15px;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(image/jakarta.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper H1 {
+/*  opacity: 0.7; */
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  
+}
+.logo-wrapper {
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+from {top: 0px;}
+to {top: 50px;}
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  font-size: 25px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #ffffff;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display:none;
+}
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 30%;
+}
+.lesson1{
+  float: left;
+  width: 25%;
+}
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon1 {
+  position: relative;
+}
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+.text-contents-left {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+    text-align: left;
+}
+.text-contents1 {
+  width: 85%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://aseanup.com/wp-content/uploads/2018/04/indonesia-blank-map.png);
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.search-text{
+  padding-bottom:20px;
+}
+   
+.search-text .input-search{
+   height:25px;
+   width:25%;
+   padding-left:20px;
+   color:#333;
+   margin: o auto;
+} 
+
+.search-text .btn-search{
+   background: #545454;
+   font-family:Roboto;
+   border:none;
+   color:#FFF;
+   height: 45px;
+   width: 80px;
+}
+
+.search-text h4{
+   color:#888582;
+   font-weight: 700;
+}
+
+footer{
+   background-color:#222222;
+   padding: 60px 0px;
+   text-align: center;
+}
+
+footer ul{
+   list-style:none;
+   margin:0 auto;
+   display:inline-block;
+   padding-top:50px;
+}
+
+footer ul li{
+   float:left;
+}
+
+footer ul li a{
+   color:#b1aca1;
+   padding:20px;
+}
+
+footer ul li a:hover{
+   color:#7dabdb;
+   text-decoration:none;
+}
+
+.footer-top{
+   padding-bottom:80px;
+   text-align: center;
+}
+
+.footer-top .fa{
+   font-size:18px;
+   color: #FFF;
+   padding-right:10px;
+}
+
+.footer-top a{
+   color:#FFF;
+   background:#333333; 
+   padding: 10px;
+}
+
+.footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
+   color:#7dabdb;
+   text-decoration:none;
+}
+
+.copyright{
+   background-color:#f0f0f0;
+}
+
+.copyright p{
+   font-size:12px;
+   padding:15px 0 10px 0;
+}
+
+#top{
+   color: #fff;
+   background: #7dabdb;
+   cursor: pointer;
+   font-size: 18px;
+   line-height: 40px;
+   height: 40px;
+   width: 40px;
+   right: 30px;
+   position: fixed;
+   border-radius: 3px;
+   text-align: center;
+   bottom: 350px;
+}
